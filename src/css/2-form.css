@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.feedback-form {
+  width: 360px;
+  background: #ffffff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  gap: 8px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  border: 1px solid #808080;
+  border-radius: 6px;
+  background: #fff;
+  outline: none;
+  resize: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.feedback-form input {
+  height: calc(40px - (2 * 10px));
+}
+
+.feedback-form textarea {
+  height: calc(80px - (2 * 10px));
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border: 1px solid #000;
+}
+
+.feedback-form button {
+  font-family: "Montserrat", sans-serif;
+  width: 95px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+
+  color: white;
+  background: #4E75FF;
+  border-radius: 8px;
+  border: none;
+
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.feedback-form button:hover {
+  background: #6C8CFF;
+}
